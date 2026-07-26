@@ -1,98 +1,56 @@
-<p align="center">
-<img 
-    src="./assets/cover.png"
-    width="300"
-/>
-</p>
-
-<p align="center">
-<a href="https://dio.me/">
-    <img 
-        src="https://img.shields.io/badge/DIO-Code_The_Future-28DA77?logo=youtube" 
-        alt="DIO - Code The Future">
-</a>
-<a href="https://dio.me/">
-<img 
-    src="https://img.shields.io/badge/🔴_LIVE_CODE-FF5E72" 
-    alt="🔴 LIVE CODE">
-</a>
-</p>
-
-<p align="center">
-    preview do podcast
-</p>
-
-<div align="center">
-    <audio src="output/podcast_editado.MP3" controls title="Podcast editado"></audio>
-</div>
-
 # Projeto Podcast Gerado por I.A.s
 
+> Uma esteira de prompts e ferramentas de inteligência artificial para criar roteiro, áudio e arte de capa de podcast.
 
- > ℹ️ **NOTE:** Este é o repositório desenvolvido durante uma live no Youtube em parceria com a [DIO](https://dio.me)
+## Visão geral
 
-Projeto com o objetivo de gerar um podcast utilizando ferramentas de IA através de prompts mais trabalhado.
+Este projeto reúne o trabalho feito durante a live com a [DIO](https://dio.me), mostrando como usar IA para criar um podcast passo a passo.
 
-Utilizer uma esteira de prompts para gerar cada etapa do processo criativo.
+- **Roteiro criado com ChatGPT**
+- **Voz sintetizada com ElevenLabs**
+- **Capa criada com MidJourney**
+- **Edição finalizada com CapCut**
 
-## 💻 Tecnologias utilizadas no projeto
+## Link do repositório no GitHub
 
-- [ChatGPT](https://chat.openai.com/) 
+O projeto está disponível em:
+
+- https://github.com/Shaoskeeper/prompts-for-podcast-generate-by-ia
+
+## Tecnologias usadas
+
+- [ChatGPT](https://chat.openai.com/)
 - [MidJourney](https://www.midjourney.com/app/)
 - [ElevenLabs](https://beta.elevenlabs.io/)
-- [Capcut](https://www.capcut.com/pt-br/)
+- [CapCut](https://www.capcut.com/pt-br/)
 
-## ✨ Como foi feito ?
+## Como usar
 
-- Roteiro gerado via chatgpt
-- Audio gerado pela elevenLabs
-- Midjourney Para gerar capas
-- Capcut para tratar aúdio e adicionar sons de fundo
+1. Abra os prompts em `src/prompts/`.
+2. Copie o prompt para a ferramenta correta.
+3. Gere o roteiro, a voz e as imagens de capa.
+4. Edite e finalize no CapCut.
 
-## 📚 Materiais
+## Estrutura do repositório
 
-- [Link da live no Youtube](https://www.youtube.com)
+- `assets/` — imagens e recursos do projeto
+- `output/` — arquivos de áudio gerados
+- `src/prompts/` — prompts para ChatGPT e MidJourney
+
+## Materiais de referência
+
 - [Notion Template](https://helpful-jump-17b.notion.site/PAS-Podcast-AI-Studio-210489e15d7a4a73b743bb159e45d06f?pvs=4)
-- [Editor de aúdio](https://www.capcut.com/editor?from_page=landing_page&__action_from=picture_V%C3%ADdeos%20profissionais%20em%20minutos,%20n%C3%A3o%20em%20horas.)
+- [Editor de áudio CapCut](https://www.capcut.com/editor?from_page=landing_page&__action_from=picture_V%C3%ADdeos%20profissionais%20em%20minutos,%20n%C3%A3o%20em%20horas.)
 
+## Observações
 
-## 🛠️ Instruções de execução
+- O arquivo `output/podcast_editado.MP3` serve como exemplo do resultado final.
+- Atualize o repositório com suas versões de prompts e áudio gerado.
 
-Utilize os prompts dentro do link do `Notion` fornecido na parte de `Materiais` para criar um podcast de maneira automatizada, para isso siga o passo a passo abaixo.
+## Autor
 
-- 🤖 1. Use os prompts de roteiro no `chagpt`
-- 🤖 2. Use os prompts de roteiro gerados pelo chatgpt no  `ElevenLabs`
-- 🤖 3. Use os prompts de artes no `midjourney`
-
-## 👨‍💻 Expert
-
-<p>
-    <img 
-      align=left 
-      margin=10 
-      width=80 
-      src="https://avatars.githubusercontent.com/u/37452836?v=4"
-    />
-    <p>&nbsp&nbsp&nbspFelipe Aguiar<br>
-    &nbsp&nbsp&nbsp
-    <a 
-        href="https://github.com/felipeAguiarCode">
-        GitHub
-    </a>
-    &nbsp;|&nbsp;
-    <a 
-        href="www.linkedin.com/in/felipe-exe">
-        LinkedIn
-    </a>
-    &nbsp;|&nbsp;
-    <a 
-        href="https://www.instagram.com/felipeaguiar.exe/">
-        Instagram
-    </a>
-    &nbsp;|&nbsp;</p>
-</p>
-<br/><br/>
-<p>
+- **Felipe Aguiar**
+- GitHub: [felipeAguiarCode](https://github.com/felipeAguiarCode)
 
 ---
 
